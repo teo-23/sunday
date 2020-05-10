@@ -1,25 +1,38 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Navbar from './Components/Navbar/Navbar';
+import Footer from './Components/Footer/Footer';
+import CardPhotoLeft from './Components/CardPhotoLeft/CardPhotoLeft';
+import CardPhotoRight from './Components/CardPhotoRight/CardPhotoRight';
+import HorizontalPhoto from './Components/HorizontalPhoto/HorizontalPhoto';
+import HorizontalLine from './Components/HorizontalLine/HorizontalLine';
+import FreeText from './Components/FreeText/FreeText';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <>
+    <div>
+    <Navbar></Navbar>
     </div>
+
+    <div className="Main">
+    <CardPhotoLeft></CardPhotoLeft>
+    <br></br>
+    <HorizontalLine></HorizontalLine>
+    <br></br>
+    <CardPhotoRight></CardPhotoRight>
+    <HorizontalLine></HorizontalLine>
+
+    <br></br>
+    <HorizontalPhoto></HorizontalPhoto>
+    <HorizontalLine></HorizontalLine>
+    
+    <FreeText></FreeText>
+
+    </div>
+    <Footer></Footer>
+    </>
   );
 }
 
