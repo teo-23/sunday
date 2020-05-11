@@ -8,12 +8,12 @@ import HorizontalPhoto from './Components/HorizontalPhoto/HorizontalPhoto';
 import HorizontalLine from './Components/HorizontalLine/HorizontalLine';
 import FreeText from './Components/FreeText/FreeText';
 
-
 function App() {
   return (
     <>
     <div>
     <Navbar></Navbar>
+    {/* <Navigation></Navigation> */}
     </div>
 
     <div className="Main">

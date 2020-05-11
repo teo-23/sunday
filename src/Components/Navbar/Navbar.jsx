@@ -2,6 +2,8 @@ import React from 'react';
 import $ from "jquery";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Navbar.css';
+// import Navbar from 'react-bootstrap/Navbar'
+// import Nav from 'react-bootstrap/Nav'
 
 
 export default function Navbar() {
@@ -27,6 +29,19 @@ export default function Navbar() {
 
     return (
         <>
+        {/* Lloyd test here below */}
+        {/* <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+            <Navbar.Brand href="/">Title or logo</Navbar.Brand>
+            <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+            <Navbar.Collapse id="responsive-navbar-nav">
+                <Nav className="mr-auto">
+                <Nav.Link href="#login">Login</Nav.Link>
+                <Nav.Link href="#signup">Signup</Nav.Link>
+                </Nav>
+            </Navbar.Collapse>
+        </Navbar> */}
+
+        {/* First test here below */}
         {/* <div>
             <nav className="navbar smart-scroll navbar-expand-lg navbar-light bg-white">
             <a class="navbar-brand" href="/">title or logo <span
