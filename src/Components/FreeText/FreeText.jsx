@@ -1,5 +1,6 @@
 import React from 'react';
 import './FreeText.css';
+// eslint-disable-next-line
 import Animate from 'animate.css'
 
 export default function FreeText() {
